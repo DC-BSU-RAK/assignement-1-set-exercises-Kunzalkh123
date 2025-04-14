@@ -7,7 +7,6 @@
 </head>
 <body>
 
-  <!-- Page title -->
   <h1>Petrol Calculator</h1>
 
   <!-- Fixed petrol price -->
@@ -27,10 +26,10 @@
   <script>
     
     function calculate() {
-      const price = 1.72; // Fixed price per litre
-      const liters = parseFloat(document.getElementById("liters").value); // Getting the input value
-      const total = price * liters; // Calculates the total
-      document.getElementById("totalAmount").innerText = "Total Amount: AED" + total.toFixed(2); // Shows output
+      const price = 1.72; 
+      const liters = parseFloat(document.getElementById("liters").value); 
+      const total = price * liters; 
+      document.getElementById("totalAmount").innerText = "Total Amount: AED" + total.toFixed(2); 
     }
   </script>
 
