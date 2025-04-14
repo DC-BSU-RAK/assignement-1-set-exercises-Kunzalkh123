@@ -4,3 +4,4 @@ function calculate() {
   const total = price * liters; 
   document.getElementById("totalAmount").innerText = "Total Amount: AED" + total.toFixed(2); 
 }
+
